@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <h1>CARGAR ARCHIVO DE EXCEL </h1>
+        <form action="./facturaController" method="post" enctype="multipart/form-data">
+            <input type="file" id="archivo" name="archivo"/>
+            <input type="submit" value="Cargar" name="btnCargar">
+        </form>
+        <h1> CONVERTIR A JSON </h1>
+        <form action="./facturaController" method="post" enctype="multipart/form-data">
+            <input type="submit" value="Convertir" name="btnGenerar">
+        </form>
+    </body>
+</html>
